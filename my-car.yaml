@@ -1,0 +1,15 @@
+apiVersion: sample-app.weave.works/v1alpha1
+kind: Car
+metadata:
+  creationTimestamp: "2020-08-17T14:33:16Z"
+  name: foo
+  namespace: default
+spec:
+  brand: SAAB
+  engine: The best one
+  yearModel: "2008"
+status:
+  acceleration: 0
+  distance: 12176941420362965433
+  persons: 0
+  speed: 53.37474583162469
